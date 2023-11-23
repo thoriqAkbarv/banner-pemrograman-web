@@ -14,7 +14,7 @@ body{
   
     /* Fill Container di Figma == 100% di JS*/
     width: 100vw; 
-    height: 100%;
+    margin-top: 150px;
   
     /* Arah Flex */
     display: flex;
