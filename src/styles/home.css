@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* .body {
+    background-color: #BAB5B5;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+} */
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: fit-content;
+    width: 442px;
+    order-radius: 24px;
+    background-color: #FFF;
+    padding: 24px;
+}
+
+.header-banner-wrapper {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+
+.content-header-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.content-header-banner h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content-header-banner .bio-nim-header-banner p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #0880EF;
+    font-weight: bold;
+}
